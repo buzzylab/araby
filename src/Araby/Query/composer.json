@@ -1,0 +1,40 @@
+{
+    "name": "araby/query",
+    "type": "library",
+    "description": "query",
+    "keywords": [
+        "php",
+        "arabic",
+        "query",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Query\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Query\\Laravel\\QueryServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Query\\Laravel\\QueryFacade"
+            ]
+        }
+    }
+}

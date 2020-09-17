@@ -1,0 +1,40 @@
+{
+    "name": "araby/soundex",
+    "type": "library",
+    "description": "soundex",
+    "keywords": [
+        "php",
+        "arabic",
+        "soundex",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Soundex\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Soundex\\Laravel\\SoundexServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Soundex\\Laravel\\SoundexFacade"
+            ]
+        }
+    }
+}

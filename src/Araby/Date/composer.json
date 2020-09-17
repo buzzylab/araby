@@ -1,0 +1,40 @@
+{
+    "name": "araby/date",
+    "type": "library",
+    "description": "date",
+    "keywords": [
+        "php",
+        "arabic",
+        "date",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Date\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Date\\Laravel\\DateServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Date\\Laravel\\DateFacade"
+            ]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "araby/charset",
+    "type": "library",
+    "description": "charset",
+    "keywords": [
+        "php",
+        "arabic",
+        "charset",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Charset\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Charset\\Laravel\\CharsetServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Charset\\Laravel\\CharsetFacade"
+            ]
+        }
+    }
+}

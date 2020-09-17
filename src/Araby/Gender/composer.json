@@ -1,0 +1,40 @@
+{
+    "name": "araby/gender",
+    "type": "library",
+    "description": "gender",
+    "keywords": [
+        "php",
+        "arabic",
+        "gender",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Gender\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Gender\\Laravel\\GenderServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Gender\\Laravel\\GenderFacade"
+            ]
+        }
+    }
+}

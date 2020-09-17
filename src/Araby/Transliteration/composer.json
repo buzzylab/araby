@@ -1,0 +1,40 @@
+{
+    "name": "araby/transliteration",
+    "type": "library",
+    "description": "transliteration",
+    "keywords": [
+        "php",
+        "arabic",
+        "transliteration",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Transliteration\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Transliteration\\Laravel\\TransliterationServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Transliteration\\Laravel\\TransliterationFacade"
+            ]
+        }
+    }
+}

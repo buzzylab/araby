@@ -1,0 +1,40 @@
+{
+    "name": "araby/stemmer",
+    "type": "library",
+    "description": "stemmer",
+    "keywords": [
+        "php",
+        "arabic",
+        "stemmer",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Stemmer\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Stemmer\\Laravel\\StemmerServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Stemmer\\Laravel\\StemmerFacade"
+            ]
+        }
+    }
+}

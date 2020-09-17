@@ -1,0 +1,40 @@
+{
+    "name": "araby/salat",
+    "type": "library",
+    "description": "salat",
+    "keywords": [
+        "php",
+        "arabic",
+        "salat",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Salat\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Salat\\Laravel\\SalatServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Salat\\Laravel\\SalatFacade"
+            ]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "araby/glyphs",
+    "type": "library",
+    "description": "glyphs",
+    "keywords": [
+        "php",
+        "arabic",
+        "glyphs",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Glyphs\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Glyphs\\Laravel\\GlyphsServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Glyphs\\Laravel\\GlyphsFacade"
+            ]
+        }
+    }
+}

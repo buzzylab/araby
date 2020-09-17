@@ -1,0 +1,40 @@
+{
+    "name": "araby/normalize",
+    "type": "library",
+    "description": "normalize",
+    "keywords": [
+        "php",
+        "arabic",
+        "normalize",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Normalize\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Normalize\\Laravel\\NormalizeServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Normalize\\Laravel\\NormalizeFacade"
+            ]
+        }
+    }
+}

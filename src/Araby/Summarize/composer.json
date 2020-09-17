@@ -1,0 +1,40 @@
+{
+    "name": "araby/summarize",
+    "type": "library",
+    "description": "summarize",
+    "keywords": [
+        "php",
+        "arabic",
+        "summarize",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Summarize\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Summarize\\Laravel\\SummarizeServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Summarize\\Laravel\\SummarizeFacade"
+            ]
+        }
+    }
+}

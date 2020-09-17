@@ -1,0 +1,40 @@
+{
+    "name": "araby/key-swap",
+    "type": "library",
+    "description": "key-swap",
+    "keywords": [
+        "php",
+        "arabic",
+        "key-swap",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\KeySwap\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\KeySwap\\Laravel\\KeySwapServiceProvider"
+            ],
+            "facades": [
+                "Araby\\KeySwap\\Laravel\\KeySwapFacade"
+            ]
+        }
+    }
+}

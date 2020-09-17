@@ -1,0 +1,40 @@
+{
+    "name": "araby/numbers",
+    "type": "library",
+    "description": "numbers",
+    "keywords": [
+        "php",
+        "arabic",
+        "numbers",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Numbers\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Numbers\\Laravel\\NumbersServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Numbers\\Laravel\\NumbersFacade"
+            ]
+        }
+    }
+}

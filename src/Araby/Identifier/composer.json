@@ -1,0 +1,40 @@
+{
+    "name": "araby/identifier",
+    "type": "library",
+    "description": "identifier",
+    "keywords": [
+        "php",
+        "arabic",
+        "identifier",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Identifier\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Identifier\\Laravel\\IdentifierServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Identifier\\Laravel\\IdentifierFacade"
+            ]
+        }
+    }
+}

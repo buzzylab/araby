@@ -1,0 +1,40 @@
+{
+    "name": "araby/str-to-time",
+    "type": "library",
+    "description": "str-to-time",
+    "keywords": [
+        "php",
+        "arabic",
+        "str-to-time",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\StrToTime\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\StrToTime\\Laravel\\StrToTimeServiceProvider"
+            ],
+            "facades": [
+                "Araby\\StrToTime\\Laravel\\StrToTimeFacade"
+            ]
+        }
+    }
+}

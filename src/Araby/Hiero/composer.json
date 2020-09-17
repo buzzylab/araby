@@ -1,0 +1,40 @@
+{
+    "name": "araby/hiero",
+    "type": "library",
+    "description": "hiero",
+    "keywords": [
+        "php",
+        "arabic",
+        "hiero",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\Hiero\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\Hiero\\Laravel\\HieroServiceProvider"
+            ],
+            "facades": [
+                "Araby\\Hiero\\Laravel\\HieroFacade"
+            ]
+        }
+    }
+}

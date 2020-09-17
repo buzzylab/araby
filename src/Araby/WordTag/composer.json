@@ -1,0 +1,40 @@
+{
+    "name": "araby/word-tag",
+    "type": "library",
+    "description": "word-tag",
+    "keywords": [
+        "php",
+        "arabic",
+        "word-tag",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\WordTag\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\WordTag\\Laravel\\WordTagServiceProvider"
+            ],
+            "facades": [
+                "Araby\\WordTag\\Laravel\\WordTagFacade"
+            ]
+        }
+    }
+}

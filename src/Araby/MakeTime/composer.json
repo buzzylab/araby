@@ -1,0 +1,40 @@
+{
+    "name": "araby/make-time",
+    "type": "library",
+    "description": "make-time",
+    "keywords": [
+        "php",
+        "arabic",
+        "make-time",
+        "laravel"
+    ],
+    "homepage": "http://buzzylab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maher El Gamil",
+            "email": "maherbusnes@gmail.com",
+            "homepage": "http://maherelgamil.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.8",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Araby\\MakeTime\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Araby\\MakeTime\\Laravel\\MakeTimeServiceProvider"
+            ],
+            "facades": [
+                "Araby\\MakeTime\\Laravel\\MakeTimeFacade"
+            ]
+        }
+    }
+}
