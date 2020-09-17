@@ -24,15 +24,5 @@
         "psr-4": {
             "Buzzylab\\Araby\\": "src"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Buzzylab\\Araby\\Laravel\\AipServiceProvider"
-            ],
-            "aliases": {
-                "Arabic": "Buzzylab\\Araby\\Laravel\\Facades\\AipFacade"
-            }
-        }
     }
 }
