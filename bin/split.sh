@@ -3,7 +3,7 @@
 set -e
 set -x
 
-CURRENT_BRANCH="1.x"
+CURRENT_BRANCH="master"
 
 function split()
 {
@@ -25,7 +25,7 @@ remote araby-gender git@github.com:buzzylab/araby-gender.git
 remote araby-glyphs git@github.com:buzzylab/araby-glyphs.git
 remote araby-hiero git@github.com:buzzylab/araby-hiero.git
 remote araby-identifier git@github.com:buzzylab/araby-identifier.git
-remote araby-keyswap git@github.com:buzzylab/araby-keyswap.git
+remote araby-keyswap git@github.com:buzzylab/araby-key-swap.git
 remote araby-maketime git@github.com:buzzylab/araby-maketime.git
 remote araby-normalize git@github.com:buzzylab/araby-normalize.git
 remote araby-numbers git@github.com:buzzylab/araby-numbers.git
@@ -34,28 +34,28 @@ remote araby-salat git@github.com:buzzylab/araby-salat.git
 remote araby-soundex git@github.com:buzzylab/araby-soundex.git
 remote araby-standard git@github.com:buzzylab/araby-standard.git
 remote araby-stemmer git@github.com:buzzylab/araby-stemmer.git
-remote araby-strtotime git@github.com:buzzylab/araby-strtotime.git
+remote araby-strtotime git@github.com:buzzylab/araby-str-to-time.git
 remote araby-summarize git@github.com:buzzylab/araby-summarize.git
 remote araby-transliteration git@github.com:buzzylab/araby-transliteration.git
-remote araby-wordtag git@github.com:buzzylab/araby-wordtag.git
+remote araby-wordtag git@github.com:buzzylab/araby-word-tag.git
 
-split 'src/Buzzylab/ArabyCharset' araby-charset
-split 'src/Buzzylab/ArabyCompress' araby-compress
-split 'src/Buzzylab/ArabyDate' araby-date
-split 'src/Buzzylab/ArabyGender' araby-gender
-split 'src/Buzzylab/ArabyGlyphs' araby-glyphs
-split 'src/Buzzylab/ArabyHiero' araby-hiero
-split 'src/Buzzylab/ArabyIdentifier' araby-identifier
-split 'src/Buzzylab/ArabyKeyswap' araby-keyswap
-split 'src/Buzzylab/ArabyMaketime' araby-maketime
-split 'src/Buzzylab/ArabyNormalize' araby-normalize
-split 'src/Buzzylab/ArabyNumbers' araby-numbers
-split 'src/Buzzylab/ArabyQuery' araby-query
-split 'src/Buzzylab/ArabySalat' araby-salat
-split 'src/Buzzylab/ArabySoundex' araby-soundex
-split 'src/Buzzylab/ArabyStandard' araby-standard
-split 'src/Buzzylab/ArabyStemmer' araby-stemmer
-split 'src/Buzzylab/ArabyStrtotime' araby-strtotime
-split 'src/Buzzylab/ArabySummarize' araby-summarize
-split 'src/Buzzylab/ArabyTransliteration' araby-transliteration
-split 'src/Buzzylab/ArabyWordtag' araby-wordtag
+split 'src/Araby/Charset' araby-charset
+split 'src/Araby/Compress' araby-compress
+split 'src/Araby/Date' araby-date
+split 'src/Araby/Gender' araby-gender
+split 'src/Araby/Glyphs' araby-glyphs
+split 'src/Araby/Hiero' araby-hiero
+split 'src/Araby/Identifier' araby-identifier
+split 'src/Araby/KeySwap' araby-keyswap
+split 'src/Araby/MakeTime' araby-maketime
+split 'src/Araby/Normalize' araby-normalize
+split 'src/Araby/Numbers' araby-numbers
+split 'src/Araby/Query' araby-query
+split 'src/Araby/Salat' araby-salat
+split 'src/Araby/Soundex' araby-soundex
+split 'src/Araby/Standard' araby-standard
+split 'src/Araby/Stemmer' araby-stemmer
+split 'src/Araby/StrToTime' araby-strtotime
+split 'src/Araby/Summarize' araby-summarize
+split 'src/Araby/Transliteration' araby-transliteration
+split 'src/Araby/WordTag' araby-wordtag
