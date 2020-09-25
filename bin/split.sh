@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-#set -e
-#set -x
+set -e
+set -x
 
 CURRENT_BRANCH="master"
 
 function split()
 {
-    SHA1=`./splitsh-lite --prefix=$1`
+    SHA1=`./bin/splitsh-lite --prefix=$1`
     git push $2 "$SHA1:refs/heads/$CURRENT_BRANCH" -f
 }
 
@@ -46,8 +46,8 @@ split 'src/Araby/Gender' araby-gender
 split 'src/Araby/Glyphs' araby-glyphs
 split 'src/Araby/Hiero' araby-hiero
 split 'src/Araby/Identifier' araby-identifier
-split 'src/Araby/KeySwap' araby-keyswap
-split 'src/Araby/MakeTime' araby-maketime
+split 'src/Araby/KeySwap' araby-key-swap
+split 'src/Araby/MakeTime' araby-make-time
 split 'src/Araby/Normalize' araby-normalize
 split 'src/Araby/Numbers' araby-numbers
 split 'src/Araby/Query' araby-query
@@ -55,7 +55,7 @@ split 'src/Araby/Salat' araby-salat
 split 'src/Araby/Soundex' araby-soundex
 split 'src/Araby/Standard' araby-standard
 split 'src/Araby/Stemmer' araby-stemmer
-split 'src/Araby/StrToTime' araby-strtotime
+split 'src/Araby/StrToTime' araby-str-to-time
 split 'src/Araby/Summarize' araby-summarize
 split 'src/Araby/Transliteration' araby-transliteration
-split 'src/Araby/WordTag' araby-wordtag
+split 'src/Araby/WordTag' araby-word-tag
