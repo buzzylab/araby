@@ -20,6 +20,27 @@
         "php": "^7.3.0",
         "illuminate/support": "^8.0"
     },
+    "replace": {
+        "araby/charset": "self.version",
+        "araby/compress": "self.version",
+        "araby/date": "self.version",
+        "araby/gender": "self.version",
+        "araby/glyphs": "self.version",
+        "araby/hiero": "self.version",
+        "araby/identifier": "self.version",
+        "araby/key-swap": "self.version",
+        "araby/make-time": "self.version",
+        "araby/normalize": "self.version",
+        "araby/query": "self.version",
+        "araby/salat": "self.version",
+        "araby/soundex": "self.version",
+        "araby/standard": "self.version",
+        "araby/stemmer": "self.version",
+        "araby/str-to-time": "self.version",
+        "araby/summarize": "self.version",
+        "araby/transliteration": "self.version",
+        "araby/word-tag": "self.version"
+    },
     "autoload": {
         "psr-4": {
             "Buzzylab\\Araby\\": "src"
