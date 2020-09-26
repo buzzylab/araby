@@ -48,7 +48,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Araby\\\\Tests\\": "tests/"
+            "Araby\\Tests\\": "tests/"
         }
     }
 }
