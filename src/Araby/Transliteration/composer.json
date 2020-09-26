@@ -1,5 +1,5 @@
 {
-    "name": "araby/transliteration",
+    "name": "araby-php/transliteration",
     "type": "library",
     "description": "transliteration",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Transliteration\\": ""
+            "ArabyPHP\\Transliteration\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Transliteration\\Laravel\\TransliterationServiceProvider"
+                "ArabyPHP\\Transliteration\\Laravel\\TransliterationServiceProvider"
             ],
             "facades": [
-                "Araby\\Transliteration\\Laravel\\TransliterationFacade"
+                "ArabyPHP\\Transliteration\\Laravel\\TransliterationFacade"
             ]
         }
     }

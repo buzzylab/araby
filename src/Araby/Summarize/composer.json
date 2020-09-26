@@ -1,5 +1,5 @@
 {
-    "name": "araby/summarize",
+    "name": "araby-php/summarize",
     "type": "library",
     "description": "summarize",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Summarize\\": ""
+            "ArabyPHP\\Summarize\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Summarize\\Laravel\\SummarizeServiceProvider"
+                "ArabyPHP\\Summarize\\Laravel\\SummarizeServiceProvider"
             ],
             "facades": [
-                "Araby\\Summarize\\Laravel\\SummarizeFacade"
+                "ArabyPHP\\Summarize\\Laravel\\SummarizeFacade"
             ]
         }
     }

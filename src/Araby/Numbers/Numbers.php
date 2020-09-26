@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Numbers;
+namespace ArabyPHP\Numbers;
 
 class Numbers
 {

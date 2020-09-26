@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Normalize\Laravel;
+namespace ArabyPHP\Normalize\Laravel;
 
-use Araby\Normalize\Normalize;
+use ArabyPHP\Normalize\Normalize;
 use Illuminate\Support\ServiceProvider;
 
 class NormalizeServiceProvider extends ServiceProvider

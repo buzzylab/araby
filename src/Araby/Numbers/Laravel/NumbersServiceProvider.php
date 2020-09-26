@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Numbers\Laravel;
+namespace ArabyPHP\Numbers\Laravel;
 
-use Araby\Numbers\Numbers;
+use ArabyPHP\Numbers\Numbers;
 use Illuminate\Support\ServiceProvider;
 
 class NumbersServiceProvider extends ServiceProvider

@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Query\Laravel;
+namespace ArabyPHP\Query\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

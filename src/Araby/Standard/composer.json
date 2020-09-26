@@ -1,5 +1,5 @@
 {
-    "name": "araby/standard",
+    "name": "araby-php/standard",
     "type": "library",
     "description": "standard",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Standard\\": ""
+            "ArabyPHP\\Standard\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Standard\\Laravel\\StandardServiceProvider"
+                "ArabyPHP\\Standard\\Laravel\\StandardServiceProvider"
             ],
             "facades": [
-                "Araby\\Standard\\Laravel\\StandardFacade"
+                "ArabyPHP\\Standard\\Laravel\\StandardFacade"
             ]
         }
     }

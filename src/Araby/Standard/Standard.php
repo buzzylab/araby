@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Standard;
+namespace ArabyPHP\Standard;
 
 class Standard
 {

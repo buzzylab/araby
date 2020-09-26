@@ -1,5 +1,5 @@
 {
-    "name": "araby/gender",
+    "name": "araby-php/gender",
     "type": "library",
     "description": "gender",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Gender\\": ""
+            "ArabyPHP\\Gender\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Gender\\Laravel\\GenderServiceProvider"
+                "ArabyPHP\\Gender\\Laravel\\GenderServiceProvider"
             ],
             "facades": [
-                "Araby\\Gender\\Laravel\\GenderFacade"
+                "ArabyPHP\\Gender\\Laravel\\GenderFacade"
             ]
         }
     }

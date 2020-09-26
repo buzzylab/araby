@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Hiero\Laravel;
+namespace ArabyPHP\Hiero\Laravel;
 
-use Araby\Hiero\Hiero;
+use ArabyPHP\Hiero\Hiero;
 use Illuminate\Support\ServiceProvider;
 
 class HieroServiceProvider extends ServiceProvider

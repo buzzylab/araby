@@ -1,5 +1,5 @@
 {
-    "name": "araby/date",
+    "name": "araby-php/date",
     "type": "library",
     "description": "date",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Date\\": ""
+            "ArabyPHP\\Date\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Date\\Laravel\\DateServiceProvider"
+                "ArabyPHP\\Date\\Laravel\\DateServiceProvider"
             ],
             "facades": [
-                "Araby\\Date\\Laravel\\DateFacade"
+                "ArabyPHP\\Date\\Laravel\\DateFacade"
             ]
         }
     }

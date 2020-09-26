@@ -1,5 +1,5 @@
 {
-    "name": "araby/charset",
+    "name": "araby-php/charset",
     "type": "library",
     "description": "charset",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Charset\\": ""
+            "ArabyPHP\\Charset\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Charset\\Laravel\\CharsetServiceProvider"
+                "ArabyPHP\\Charset\\Laravel\\CharsetServiceProvider"
             ],
             "facades": [
-                "Araby\\Charset\\Laravel\\CharsetFacade"
+                "ArabyPHP\\Charset\\Laravel\\CharsetFacade"
             ]
         }
     }

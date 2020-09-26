@@ -1,5 +1,5 @@
 {
-    "name": "araby/glyphs",
+    "name": "araby-php/glyphs",
     "type": "library",
     "description": "glyphs",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Glyphs\\": ""
+            "ArabyPHP\\Glyphs\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Glyphs\\Laravel\\GlyphsServiceProvider"
+                "ArabyPHP\\Glyphs\\Laravel\\GlyphsServiceProvider"
             ],
             "facades": [
-                "Araby\\Glyphs\\Laravel\\GlyphsFacade"
+                "ArabyPHP\\Glyphs\\Laravel\\GlyphsFacade"
             ]
         }
     }

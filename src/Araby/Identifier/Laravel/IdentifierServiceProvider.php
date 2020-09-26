@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Identifier\Laravel;
+namespace ArabyPHP\Identifier\Laravel;
 
-use Araby\Identifier\Identifier;
+use ArabyPHP\Identifier\Identifier;
 use Illuminate\Support\ServiceProvider;
 
 class IdentifierServiceProvider extends ServiceProvider

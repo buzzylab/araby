@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\MakeTime\Laravel;
+namespace ArabyPHP\MakeTime\Laravel;
 
-use Araby\MakeTime\MakeTime;
+use ArabyPHP\MakeTime\MakeTime;
 use Illuminate\Support\ServiceProvider;
 
 class MakeTimeServiceProvider extends ServiceProvider

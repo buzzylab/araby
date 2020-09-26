@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Normalize;
+namespace ArabyPHP\Normalize;
 
 class Normalize
 {

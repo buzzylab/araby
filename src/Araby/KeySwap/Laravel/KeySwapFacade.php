@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\KeySwap\Laravel;
+namespace ArabyPHP\KeySwap\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

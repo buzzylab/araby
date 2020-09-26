@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Charset\Laravel;
+namespace ArabyPHP\Charset\Laravel;
 
-use Araby\Charset\Charset;
+use ArabyPHP\Charset\Charset;
 use Illuminate\Support\ServiceProvider;
 
 class CharsetServiceProvider extends ServiceProvider

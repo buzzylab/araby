@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\WordTag\Laravel;
+namespace ArabyPHP\WordTag\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

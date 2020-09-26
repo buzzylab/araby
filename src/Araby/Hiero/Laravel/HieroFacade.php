@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Hiero\Laravel;
+namespace ArabyPHP\Hiero\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

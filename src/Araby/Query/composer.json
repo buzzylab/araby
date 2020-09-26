@@ -1,5 +1,5 @@
 {
-    "name": "araby/query",
+    "name": "araby-php/query",
     "type": "library",
     "description": "query",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Query\\": ""
+            "ArabyPHP\\Query\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Query\\Laravel\\QueryServiceProvider"
+                "ArabyPHP\\Query\\Laravel\\QueryServiceProvider"
             ],
             "facades": [
-                "Araby\\Query\\Laravel\\QueryFacade"
+                "ArabyPHP\\Query\\Laravel\\QueryFacade"
             ]
         }
     }

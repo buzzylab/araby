@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Transliteration;
+namespace ArabyPHP\Transliteration;
 
 class Transliteration
 {

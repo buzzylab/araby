@@ -1,5 +1,5 @@
 {
-    "name": "araby/normalize",
+    "name": "araby-php/normalize",
     "type": "library",
     "description": "normalize",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Normalize\\": ""
+            "ArabyPHP\\Normalize\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Normalize\\Laravel\\NormalizeServiceProvider"
+                "ArabyPHP\\Normalize\\Laravel\\NormalizeServiceProvider"
             ],
             "facades": [
-                "Araby\\Normalize\\Laravel\\NormalizeFacade"
+                "ArabyPHP\\Normalize\\Laravel\\NormalizeFacade"
             ]
         }
     }

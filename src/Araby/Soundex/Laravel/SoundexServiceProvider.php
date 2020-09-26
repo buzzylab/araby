@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Soundex\Laravel;
+namespace ArabyPHP\Soundex\Laravel;
 
-use Araby\Soundex\Soundex;
+use ArabyPHP\Soundex\Soundex;
 use Illuminate\Support\ServiceProvider;
 
 class SoundexServiceProvider extends ServiceProvider

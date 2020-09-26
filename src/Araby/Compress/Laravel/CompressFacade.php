@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Compress\Laravel;
+namespace ArabyPHP\Compress\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

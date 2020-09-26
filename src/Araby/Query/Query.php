@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Query;
+namespace ArabyPHP\Query;
 
 class Query
 {

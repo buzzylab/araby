@@ -1,9 +1,9 @@
 <?php
 
-namespace Araby\Transliteration\Laravel;
+namespace ArabyPHP\Transliteration\Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use Araby\Transliteration\Transliteration;
+use ArabyPHP\Transliteration\Transliteration;
 
 class TransliterationServiceProvider extends ServiceProvider
 {

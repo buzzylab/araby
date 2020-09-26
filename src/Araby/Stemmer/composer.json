@@ -1,5 +1,5 @@
 {
-    "name": "araby/stemmer",
+    "name": "araby-php/stemmer",
     "type": "library",
     "description": "stemmer",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Stemmer\\": ""
+            "ArabyPHP\\Stemmer\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Stemmer\\Laravel\\StemmerServiceProvider"
+                "ArabyPHP\\Stemmer\\Laravel\\StemmerServiceProvider"
             ],
             "facades": [
-                "Araby\\Stemmer\\Laravel\\StemmerFacade"
+                "ArabyPHP\\Stemmer\\Laravel\\StemmerFacade"
             ]
         }
     }

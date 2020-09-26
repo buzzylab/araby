@@ -1,5 +1,5 @@
 {
-    "name": "araby/key-swap",
+    "name": "araby-php/key-swap",
     "type": "library",
     "description": "key-swap",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\KeySwap\\": ""
+            "ArabyPHP\\KeySwap\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\KeySwap\\Laravel\\KeySwapServiceProvider"
+                "ArabyPHP\\KeySwap\\Laravel\\KeySwapServiceProvider"
             ],
             "facades": [
-                "Araby\\KeySwap\\Laravel\\KeySwapFacade"
+                "ArabyPHP\\KeySwap\\Laravel\\KeySwapFacade"
             ]
         }
     }

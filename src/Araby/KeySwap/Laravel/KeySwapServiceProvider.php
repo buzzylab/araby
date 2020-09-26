@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\KeySwap\Laravel;
+namespace ArabyPHP\KeySwap\Laravel;
 
-use Araby\KeySwap\KeySwap;
+use ArabyPHP\KeySwap\KeySwap;
 use Illuminate\Support\ServiceProvider;
 
 class KeySwapServiceProvider extends ServiceProvider

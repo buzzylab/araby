@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Date\Laravel;
+namespace ArabyPHP\Date\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

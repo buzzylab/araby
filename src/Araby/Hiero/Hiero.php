@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Hiero;
+namespace ArabyPHP\Hiero;
 
 class Hiero
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Gender\Laravel;
+namespace ArabyPHP\Gender\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

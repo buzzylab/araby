@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Glyphs\Laravel;
+namespace ArabyPHP\Glyphs\Laravel;
 
-use Araby\Glyphs\Glyphs;
+use ArabyPHP\Glyphs\Glyphs;
 use Illuminate\Support\ServiceProvider;
 
 class GlyphsServiceProvider extends ServiceProvider

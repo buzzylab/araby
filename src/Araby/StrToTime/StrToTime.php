@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\StrToTime;
+namespace ArabyPHP\StrToTime;
 
 class StrToTime
 {

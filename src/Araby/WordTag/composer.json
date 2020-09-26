@@ -1,5 +1,5 @@
 {
-    "name": "araby/word-tag",
+    "name": "araby-php/word-tag",
     "type": "library",
     "description": "word-tag",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\WordTag\\": ""
+            "ArabyPHP\\WordTag\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\WordTag\\Laravel\\WordTagServiceProvider"
+                "ArabyPHP\\WordTag\\Laravel\\WordTagServiceProvider"
             ],
             "facades": [
-                "Araby\\WordTag\\Laravel\\WordTagFacade"
+                "ArabyPHP\\WordTag\\Laravel\\WordTagFacade"
             ]
         }
     }

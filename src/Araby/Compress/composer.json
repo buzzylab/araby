@@ -1,5 +1,5 @@
 {
-    "name": "araby/compress",
+    "name": "araby-php/compress",
     "type": "library",
     "description": "compress",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Compress\\": ""
+            "ArabyPHP\\Compress\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Compress\\Laravel\\CompressServiceProvider"
+                "ArabyPHP\\Compress\\Laravel\\CompressServiceProvider"
             ],
             "facades": [
-                "Araby\\Compress\\Laravel\\CompressFacade"
+                "ArabyPHP\\Compress\\Laravel\\CompressFacade"
             ]
         }
     }

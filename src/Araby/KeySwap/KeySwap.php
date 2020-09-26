@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\KeySwap;
+namespace ArabyPHP\KeySwap;
 
 class KeySwap
 {

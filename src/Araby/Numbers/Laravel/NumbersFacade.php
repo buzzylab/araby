@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Numbers\Laravel;
+namespace ArabyPHP\Numbers\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

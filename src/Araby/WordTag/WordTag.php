@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\WordTag;
+namespace ArabyPHP\WordTag;
 
 class WordTag
 {

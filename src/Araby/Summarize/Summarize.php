@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Summarize;
+namespace ArabyPHP\Summarize;
 
 class Summarize
 {

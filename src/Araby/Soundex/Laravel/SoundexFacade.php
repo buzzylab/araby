@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Soundex\Laravel;
+namespace ArabyPHP\Soundex\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

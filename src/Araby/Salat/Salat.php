@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Salat;
+namespace ArabyPHP\Salat;
 
 class Salat
 {

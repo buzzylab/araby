@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Charset;
+namespace ArabyPHP\Charset;
 
 class Charset
 {

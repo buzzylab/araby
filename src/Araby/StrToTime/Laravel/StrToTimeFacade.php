@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\StrToTime\Laravel;
+namespace ArabyPHP\StrToTime\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

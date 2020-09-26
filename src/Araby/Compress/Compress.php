@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Compress;
+namespace ArabyPHP\Compress;
 
 class Compress
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Soundex;
+namespace ArabyPHP\Soundex;
 
 class Soundex
 {

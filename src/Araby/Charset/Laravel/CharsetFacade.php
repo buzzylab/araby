@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Charset\Laravel;
+namespace ArabyPHP\Charset\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

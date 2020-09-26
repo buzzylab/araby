@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Gender\Laravel;
+namespace ArabyPHP\Gender\Laravel;
 
-use Araby\Gender\Gender;
+use ArabyPHP\Gender\Gender;
 use Illuminate\Support\ServiceProvider;
 
 class GenderServiceProvider extends ServiceProvider

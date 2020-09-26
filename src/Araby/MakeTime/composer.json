@@ -1,5 +1,5 @@
 {
-    "name": "araby/make-time",
+    "name": "araby-php/make-time",
     "type": "library",
     "description": "make-time",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\MakeTime\\": ""
+            "ArabyPHP\\MakeTime\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\MakeTime\\Laravel\\MakeTimeServiceProvider"
+                "ArabyPHP\\MakeTime\\Laravel\\MakeTimeServiceProvider"
             ],
             "facades": [
-                "Araby\\MakeTime\\Laravel\\MakeTimeFacade"
+                "ArabyPHP\\MakeTime\\Laravel\\MakeTimeFacade"
             ]
         }
     }

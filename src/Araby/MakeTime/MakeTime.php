@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\MakeTime;
+namespace ArabyPHP\MakeTime;
 
 class MakeTime
 {

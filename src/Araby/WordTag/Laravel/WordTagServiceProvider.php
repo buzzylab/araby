@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\WordTag\Laravel;
+namespace ArabyPHP\WordTag\Laravel;
 
-use Araby\WordTag\WordTag;
+use ArabyPHP\WordTag\WordTag;
 use Illuminate\Support\ServiceProvider;
 
 class WordTagServiceProvider extends ServiceProvider

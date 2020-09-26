@@ -1,5 +1,5 @@
 {
-    "name": "araby/salat",
+    "name": "araby-php/salat",
     "type": "library",
     "description": "salat",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Salat\\": ""
+            "ArabyPHP\\Salat\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Salat\\Laravel\\SalatServiceProvider"
+                "ArabyPHP\\Salat\\Laravel\\SalatServiceProvider"
             ],
             "facades": [
-                "Araby\\Salat\\Laravel\\SalatFacade"
+                "ArabyPHP\\Salat\\Laravel\\SalatFacade"
             ]
         }
     }

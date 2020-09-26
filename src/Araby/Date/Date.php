@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Date;
+namespace ArabyPHP\Date;
 
 class Date
 {

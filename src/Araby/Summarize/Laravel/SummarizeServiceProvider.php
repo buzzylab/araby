@@ -1,8 +1,8 @@
 <?php
 
-namespace Araby\Summarize\Laravel;
+namespace ArabyPHP\Summarize\Laravel;
 
-use Araby\Summarize\Summarize;
+use ArabyPHP\Summarize\Summarize;
 use Illuminate\Support\ServiceProvider;
 
 class SummarizeServiceProvider extends ServiceProvider

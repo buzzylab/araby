@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\MakeTime\Laravel;
+namespace ArabyPHP\MakeTime\Laravel;
 
 use Illuminate\Support\Facades\Facade;
 

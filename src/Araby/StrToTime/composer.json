@@ -1,5 +1,5 @@
 {
-    "name": "araby/str-to-time",
+    "name": "araby-php/str-to-time",
     "type": "library",
     "description": "str-to-time",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\StrToTime\\": ""
+            "ArabyPHP\\StrToTime\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\StrToTime\\Laravel\\StrToTimeServiceProvider"
+                "ArabyPHP\\StrToTime\\Laravel\\StrToTimeServiceProvider"
             ],
             "facades": [
-                "Araby\\StrToTime\\Laravel\\StrToTimeFacade"
+                "ArabyPHP\\StrToTime\\Laravel\\StrToTimeFacade"
             ]
         }
     }

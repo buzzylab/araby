@@ -1,5 +1,5 @@
 {
-    "name": "araby/soundex",
+    "name": "araby-php/soundex",
     "type": "library",
     "description": "soundex",
     "keywords": [
@@ -24,16 +24,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Araby\\Soundex\\": ""
+            "ArabyPHP\\Soundex\\": ""
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Araby\\Soundex\\Laravel\\SoundexServiceProvider"
+                "ArabyPHP\\Soundex\\Laravel\\SoundexServiceProvider"
             ],
             "facades": [
-                "Araby\\Soundex\\Laravel\\SoundexFacade"
+                "ArabyPHP\\Soundex\\Laravel\\SoundexFacade"
             ]
         }
     }

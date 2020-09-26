@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Gender;
+namespace ArabyPHP\Gender;
 
 class Gender
 {

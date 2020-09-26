@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Glyphs;
+namespace ArabyPHP\Glyphs;
 
 class Glyphs
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Araby\Identifier;
+namespace ArabyPHP\Identifier;
 
 class Identifier
 {
