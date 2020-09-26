@@ -45,5 +45,10 @@
         "psr-4": {
             "Buzzylab\\Araby\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Araby\\\\Tests\\": "tests/"
+        }
     }
 }
