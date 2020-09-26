@@ -2,8 +2,8 @@
 
 namespace Araby\Stemmer\Laravel;
 
+use Araby\Stemmer\Stemmer;
 use Illuminate\Support\ServiceProvider;
-use Araby\Stemmer
 
 class StemmerServiceProvider extends ServiceProvider
 {

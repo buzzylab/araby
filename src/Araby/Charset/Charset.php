@@ -1,6 +1,6 @@
 <?php
 
-namespace Buzzylab\Aip\Models;
+namespace Araby\Charset;
 
 class Charset
 {

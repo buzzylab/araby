@@ -2,8 +2,8 @@
 
 namespace Araby\Compress\Laravel;
 
+use Araby\Compress\Compress;
 use Illuminate\Support\ServiceProvider;
-use Araby\Compress
 
 class CompressServiceProvider extends ServiceProvider
 {

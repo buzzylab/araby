@@ -2,8 +2,8 @@
 
 namespace Araby\Standard\Laravel;
 
+use Araby\Standard\Standard;
 use Illuminate\Support\ServiceProvider;
-use Araby\Standard
 
 class StandardServiceProvider extends ServiceProvider
 {

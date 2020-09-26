@@ -3,7 +3,7 @@
 namespace Araby\Transliteration\Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use Araby\Transliteration
+use Araby\Transliteration\Transliteration;
 
 class TransliterationServiceProvider extends ServiceProvider
 {

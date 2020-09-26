@@ -2,8 +2,8 @@
 
 namespace Araby\Hiero\Laravel;
 
+use Araby\Hiero\Hiero;
 use Illuminate\Support\ServiceProvider;
-use Araby\Hiero
 
 class HieroServiceProvider extends ServiceProvider
 {

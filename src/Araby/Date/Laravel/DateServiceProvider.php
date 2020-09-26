@@ -2,8 +2,8 @@
 
 namespace Araby\Date\Laravel;
 
+use Araby\Date\Date;
 use Illuminate\Support\ServiceProvider;
-use Araby\Date
 
 class DateServiceProvider extends ServiceProvider
 {

@@ -2,8 +2,8 @@
 
 namespace Araby\MakeTime\Laravel;
 
+use Araby\MakeTime\MakeTime;
 use Illuminate\Support\ServiceProvider;
-use Araby\MakeTime
 
 class MakeTimeServiceProvider extends ServiceProvider
 {

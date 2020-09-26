@@ -2,8 +2,8 @@
 
 namespace Araby\Salat\Laravel;
 
+use Araby\Salat\Salat;
 use Illuminate\Support\ServiceProvider;
-use Araby\Salat
 
 class SalatServiceProvider extends ServiceProvider
 {

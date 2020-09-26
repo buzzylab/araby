@@ -2,8 +2,8 @@
 
 namespace Araby\Query\Laravel;
 
+use Araby\Query\Query;
 use Illuminate\Support\ServiceProvider;
-use Araby\Query
 
 class QueryServiceProvider extends ServiceProvider
 {

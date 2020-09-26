@@ -2,8 +2,8 @@
 
 namespace Araby\StrToTime\Laravel;
 
+use Araby\StrToTime\StrToTime;
 use Illuminate\Support\ServiceProvider;
-use Araby\StrToTime
 
 class StrToTimeServiceProvider extends ServiceProvider
 {

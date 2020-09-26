@@ -1,12 +1,9 @@
 <?php
 
-
-namespace Buzzylab\Aip\Models;
+namespace Araby\MakeTime;
 
 class MakeTime
 {
-
-
     /**
      * This will return current Unix timestamp
      * for given Hijri date (Islamic calendar).

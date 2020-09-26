@@ -1,7 +1,6 @@
 <?php
 
-
-namespace Buzzylab\Aip\Models;
+namespace Araby\Salat;
 
 class Salat
 {
