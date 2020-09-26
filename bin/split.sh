@@ -13,6 +13,7 @@ function split()
 
 function remote()
 {
+    git remote remove $1 || true
     git remote add $1 $2 || true
 }
 
@@ -26,7 +27,7 @@ remote araby-glyphs git@github.com:buzzylab/araby-glyphs.git
 remote araby-hiero git@github.com:buzzylab/araby-hiero.git
 remote araby-identifier git@github.com:buzzylab/araby-identifier.git
 remote araby-key-swap git@github.com:buzzylab/araby-key-swap.git
-remote araby-make-time git@github.com:buzzylab/araby-maketime.git
+remote araby-make-time git@github.com:buzzylab/araby-make-time.git
 remote araby-normalize git@github.com:buzzylab/araby-normalize.git
 remote araby-numbers git@github.com:buzzylab/araby-numbers.git
 remote araby-query git@github.com:buzzylab/araby-query.git
